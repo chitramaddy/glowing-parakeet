@@ -1,0 +1,23 @@
+body {
+  box-sizing: border-box;
+  margin: auto;
+  background-image: url('../asset/images/abstract-image.jpg');
+}
+.title {
+  font-family: 'Roboto', sans-serif;
+}
+h1,
+h2,
+h3 {
+  margin: 0 auto;
+  padding: 10px;
+  background-color: gold;
+  text-align: center;
+  align-items: center;
+}
+
+h2,
+h3 {
+  background-color: gray;
+  color: whitesmoke;
+}
