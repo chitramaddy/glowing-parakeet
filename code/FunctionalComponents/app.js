@@ -2,7 +2,7 @@ import { createElement } from 'react';
 import ReactDOM, { createRoot } from 'react-dom/client';
 import './app.css';
 
-const Title = () => (
+const TitleComponent = () => (
   <div className="title">
     <h1 key="first">Namaste React</h1>
     <h2 key="second">Laying the Foundation</h2>
@@ -11,4 +11,4 @@ const Title = () => (
 );
 
 const root = createRoot(document.getElementById('root'));
-root.render(<Title greeting="Namaste" />);
+root.render(<TitleComponent greeting="Namaste" />);
